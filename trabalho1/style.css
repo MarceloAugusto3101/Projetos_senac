@@ -1,0 +1,29 @@
+.Raphael {
+  font-family: "Playwrite DK Uloopet Guides", cursive;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+}
+body {
+    background-color: #d7d7d7;
+}
+
+    .avatar {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Tabela {
+  color: black;
+  text-align: center;
+  border-radius: 25px;
+}
+    
+.Inicio {
+  background-color: #d7d7d7;
+  border-radius: 100px;
+  border-style: outset;
+
+}
+
