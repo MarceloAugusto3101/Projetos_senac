@@ -1,0 +1,8 @@
+div{
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+    background-image: url(imagens/f791a80bed33467870bf3e8517ff28fe.jpg);
+}

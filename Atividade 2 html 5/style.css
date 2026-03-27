@@ -1,0 +1,137 @@
+body {
+	border-radius: 20;
+	background-image: url('imagens/pexels-anastasia-shuraeva-4944435.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	height: 100vh;
+}
+
+.titulo {
+	font-family: "Ultra", serif;
+	font-weight: 500;
+	font-style: normal;
+	font-weight: 6400;
+	font-style: normal;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	color: black;
+}
+
+.header {
+	top: 10;
+	left: 0;
+	width: 100%;
+	z-index: 1000;
+	background-color: white;
+	height: 25%;
+	box-sizing: border-box;
+}
+
+.Txt1 {
+	color: white;
+}
+
+.Texto {
+	background-color: transparent;
+	text-align: center;
+	color: #ffff;	
+}
+
+.h22 {
+	background-color: transparent;
+	text-align: center;
+	color: black;
+}
+
+.li2 {
+	text-align: center;
+}
+
+.P2 {
+	background-color: white;
+	text-align: center;
+	color: black;
+
+}
+
+.quadrado {
+	background-color: #808080;
+	border-radius: 10vh;
+}
+
+thead {
+	color: #ffffff;
+	font-size: 50px;
+
+}
+ul{
+  justify-content: space-between;
+  list-style: none;
+
+}
+.folder{
+    display: flex;
+  justify-content: space-between;
+  list-style: none;
+  align-items: center;
+  padding: 16px 0;
+}
+.Artes{
+	 font-size: larger;
+background-color: #808080;	
+ color: white;
+	
+}
+
+body{
+  display: flex;
+flex-direction: column;
+min-height: 100vh;
+margin: 0;
+}
+footer{
+background-color: black;
+color: white;
+text-align: center;
+bottom: 0;
+position: absolute;
+}
+form{
+  border: #808080;
+  color: white;
+}
+form{
+	background-color: black;
+	color: white;
+	font-size: 30px;
+}
+.Aparelhos{
+	 font-size: larger;
+background-color: #808080;	
+ color: white;
+}
+.cardio{
+	 font-size: larger;
+background-color: #808080;	
+ color: white;
+}
+.Enviar{
+	text-align: center;
+	display: flex;
+    display: block;
+}
+div1{
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+    background-image: url(imagens/f791a80bed33467870bf3e8517ff28fe.jpg);
+}
+.h12{
+	background-image: url(imagens/f791a80bed33467870bf3e8517ff28fe.jpg);
+	border-radius: 10%;
+}
