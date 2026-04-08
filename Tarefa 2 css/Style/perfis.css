@@ -1,0 +1,100 @@
+body{
+    background-color: #13670b;
+    padding-bottom: 200px;
+    min-width: 1024px;
+}
+.nav{
+    text-align: center;
+    position: sticky; top: 0;
+        background-color:#BDBCBC ;
+         box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    justify-self: center;
+    width: 94%;
+    padding:50px;
+ position: sticky; top: 0;
+ 
+}
+.Botões{
+    color: brown;
+    padding-left: 90px;
+    padding-right: 90px;
+    text-decoration: none;
+        font-size: x-large;
+}
+.Botões:hover{
+    color: cadetblue;
+    text-decoration: underline;
+}
+.maior{
+    background-color: transparent;
+    display: flex;
+    margin-top: 390px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    padding-bottom: 90px;
+    margin-top: 60px;
+}
+.garrafa{
+    padding-top: 10px;
+    padding-left: 600px;
+}
+.main2{
+display: flex;
+gap: 30px;
+padding: 250px;
+flex-wrap: wrap;
+justify-content: center;
+padding-top: 3px;
+padding-bottom: 50px;
+}
+.Card1 {
+    background-color: gray;
+    border: 1px solid #ccc;
+    padding: 20px;
+    align-items: center;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    justify-self: center;
+    text-align: center;
+    margin-top: 70px;
+    
+}
+.Card1 img{
+    width: 100%;
+    height: 150px;
+    border-radius: 10px;
+    align-items: center;
+    display: flex;
+
+}
+.Card1 a{
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 20px;
+}
+h1{
+    text-align: center;
+     margin-top:220px;
+     margin-left: 800px;
+     margin-right: 800px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, cursive;
+    color: brown;
+    background-color: #BDBCBC;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        border-radius: 30px;
+        
+        
+}
+footer{
+    background-color: #BDBCBC;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+   text-align: center;
+  position: fixed; bottom: 0;
+  padding-right: 870px;
+  padding-left: 800px;
+  text-decoration: none;
+}

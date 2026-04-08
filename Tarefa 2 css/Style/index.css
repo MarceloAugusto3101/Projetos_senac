@@ -34,24 +34,23 @@ main{
          margin-bottom: 200px;
 }
 .Card1{
-    background-color: #008200;
-    border: 1px solid white;
+    background-color: white;
+    border: 1px solid black;
     padding: 20px;
     align-items: center;
-    width: 250px;
+    width: 178px;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     justify-content: center;
     vertical-align: top;
     padding-left: 70px;
-    padding-right: 70px;
-    
+    padding-right: 70px;   
 
 }
 
 .Card1 img{
     width: 100%;
-    height: 70%;
+    height:35%;
     align-items: center;
     display: flex;
     padding-bottom: 50px;
@@ -59,13 +58,13 @@ main{
 
 }
 .Card1 a{
-    color: black;
+    color: white;
     text-decoration: none;
-    background-color: white;
+    background-color: #13670b;
     padding-left: 40px;
     padding-right: 40px;
     padding-bottom: 10px;
     padding-top: 10px;
     border-radius: 10px;
-    text-align: center;
+    text-align: center; 
 }
