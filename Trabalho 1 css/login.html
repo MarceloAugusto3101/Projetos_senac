@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <link rel="stylesheet" href="stylelogin.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=login" />
@@ -7,15 +8,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
-          <header> 
-    <h1 class="title">Senac Tech</h1>
-   </header>
-       <nav>
-         <a class="Botões" href="index.html">Home</a> <a class="Botões" href="galeria.html">Galeria</a> <a class="Botões" href="login.html">Login</a>
-       </nav>
+    <header>
+        <h1 class="title">Senac Tech</h1>
+    </header>
+    <nav>
+        <a class="Botões" href="index.html">Home</a> <a class="Botões" href="galeria.html">Galeria</a> <a class="Botões" href="login.html">Login</a>
+    </nav>
+
     <main>
-        <form>
+        <form onsubmit="return false">
             <legend>
                 <label class="login" for="Usuário">Usuário:</label>
                 <br>
@@ -23,17 +26,18 @@
                 <br>
                 <label class="login" for="Senha">Senha</label>
                 <br>
-                <input type="password">
+                <input type="password" id="senha">
+                <button type="button" onclick="funcaoToggle()">Mostrar senha</button>
+                </button>
                 <br>
                 <br>
-                <button id="Login"><span class="material-symbols-outlined">
-login
-</span></button>
-
-                
+                <button id="Login"><span class="material-symbols-outlined">login </span>
+</button>
             </legend>
-
         </form>
+
     </main>
+    <script src="index.js" defer></script>
 </body>
+
 </html>
