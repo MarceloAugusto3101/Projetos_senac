@@ -1,0 +1,438 @@
+body {
+    margin: 0;
+    background-color: rgb(224, 224, 224);
+}
+
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-large;
+}
+
+.topo {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(5, 5, 74);
+    color: #ffff;
+}
+
+.Logo {
+    padding-left: 40px;
+
+}
+
+.foco {
+    font-size: medium;
+    height: 200px;
+}
+
+.clique {
+    color: white;
+    text-decoration: none;
+    padding-top: 50px;
+    padding-right: 20px;
+}
+
+.quadaradao {
+    background: linear-gradient(to right, #000080, #120a8f, #1414b9, #0000e7);
+    color: #ffff;
+    padding: 5px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+
+}
+
+.botoes {
+    display: flex;
+    gap: 10px;
+    margin-left: 10px;
+
+}
+
+.Ver {
+    background-color: orange;
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+
+.Conhecer {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.Destaques {
+    text-align: center;
+    margin-top: 150px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.Cards {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    padding: 150px;
+    border-radius: 10px;
+    padding-top: 100px;
+
+}
+
+.Card1 {
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding-left: 10px;
+    padding-top: 30px;
+    border-radius: 10px;
+    padding-bottom: 30px;
+}
+
+.Card1 img {
+    display: flex;
+    justify-self: center;
+    border-radius: 10px;
+}
+
+.Card1 a {
+    color: blue;
+}
+
+.Direita {
+    margin-top: 20px;
+    background-color: white;
+    color: black;
+    margin-left: 900px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    margin-right: 60px;
+    position: relative;
+}
+
+.cima {
+    padding-bottom: 0px;
+    background-color: rgb(218, 214, 208);
+    color: black;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.baixo {
+    padding: 10px;
+    margin-top: 20px;
+    background-color: rgb(218, 214, 208);
+    color: black;
+    border-radius: 10px;
+}
+
+.Estrutura {
+    text-align: center;
+}
+
+.final {
+    background-color: rgb(170, 179, 186);
+    border-radius: 10px;
+    display: flex;
+    margin: 90px;
+}
+
+.p1 {
+    background-color: aqua;
+    margin: 90px;
+}
+
+.banner {
+    background-color: #0000e7;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.grand {
+    justify-self: center;
+    width: 80%;
+    background-color: white;
+    padding: 50px;
+    margin-top: 90px;
+    border-radius: 10px;
+    display: flex;
+}
+
+.esq {
+    width: 70%;
+    justify-self: left;
+
+}
+
+.box {
+    display: flex;
+    gap: 20px;
+    margin-left: 50px;
+}
+
+.esq1,
+.esq2 {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 20px;
+    border-radius: 10px;
+    width: 20%;
+}
+
+.esq1 img {
+    justify-self: center;
+    border-radius: 10px;
+}
+
+.esq2 img {
+    justify-self: center;
+    border-radius: 10px;
+}
+
+.dir {
+    width: 30%;
+    flex-direction: column;
+    margin-left: 90px;
+
+}
+
+.plan1,
+.plan2 {
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    width: 70%;
+    padding: 20px;
+}
+
+.dialogo {
+    background-color: white;
+}
+
+.dialogo1 {
+    background-color: rgb(218, 218, 218);
+    padding: 10px;
+    border-radius: 10px;
+    border-left: 6px solid #1a56db;
+}
+
+.direita2 {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.grandao-baixo {
+    justify-self: center;
+    width: 80%;
+    background-color: white;
+    padding: 50px;
+    margin-top: 90px;
+    border-radius: 10px;
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.principal {
+    text-align: center;
+}
+
+.Cartões {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    justify-self: center;
+}
+
+.emcima {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+
+
+}
+
+.emcima img {
+    height: 200px;
+    width: 90%;
+    border-radius: 10px;
+}
+
+.perfil {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 10px;
+    width: 22%;
+}
+
+.Cartões1 {
+    padding-top: 20px;
+}
+
+.perfil2 {
+    background-color: white;
+    align-items: center;
+    padding-top: 20px;
+    width: 27%;
+    border-radius: 10px;
+    padding-left: 42px;
+}
+
+.footerarea {
+    background-color: #0a1120;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.pagina2 {
+    background-color: rgb(215, 215, 216);
+    padding: 50px;
+    border-radius: 20px;
+    width: 60%;
+    justify-self: center;
+    margin: 30px;
+}
+
+.grid {
+    justify-self: center;
+}
+
+.pc {
+    background-color: rgb(205, 217, 238);
+    border-radius: 20px;
+    padding: 10px;
+
+}
+
+.esquerdao {
+    display: flex;
+    justify-content: center;
+}
+
+.partes {
+    background-color: white;
+    padding: 10px;
+    border-radius: 12px;
+    margin: 10px;
+    padding: 20px;
+}
+
+.parte1 {
+    background-color: rgb(233, 233, 233);
+    border-radius: 10px;
+    padding: 5px;
+    border-left: 6px solid #1a56db;
+}
+
+.etapa2 {
+    background-color: rgb(233, 233, 233);
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-left: 6px solid #1a56db;
+}
+
+
+.etapa3 {
+    background-color: rgb(233, 233, 233);
+    border-radius: 10px;
+    padding: 5px;
+    border-left: 6px solid #1a56db;
+}
+
+.areadireita1 {
+    background-color: white;
+    padding: 9px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.areadireita2 {
+    background-color: white;
+    padding: 9px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.areadireita3 {
+    background-color: white;
+    padding: 9px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.final{
+    background-color: transparent;
+    gap: 10px;  
+}
+
+.prim {
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.segun {
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 20px;
+    
+}
+
+.diferenciais {
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px;
+}
+.Proximos{
+        background-color: white;
+    border-radius: 10px;
+    padding: 5px;   
+    margin-top: 20px;
+}
+.interface{
+    color: black;
+     border-left: 6px solid #1a56db;
+     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+     padding: 10px;
+     background-color: #e0e0e0;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+.conteúdo{
+    color: black;
+     border-left: 6px solid #1a56db;
+     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+     margin-top: 10px;
+     margin-bottom: 10px;
+     padding: 10px;
+     background-color: #e0e0e0;
+    border-radius: 10px;
+    margin-left: 20px;
+}
