@@ -1,0 +1,34 @@
+.primeira{
+    display: flex;
+    justify-self: center;
+    background-color: black;
+    color: aliceblue;
+}
+.name{
+    display: flex;
+    justify-self: center;
+    padding: 10px;
+}
+.para{
+    display: none;
+}
+.calculadora{
+    display: flex;
+}
+.cores{
+    display: flex;
+    border-radius: 20px;
+}
+.msmtempo{
+    border: black 1px solid;
+    padding: 20px;
+    border-radius: 10px;
+}
+.atividade6médio{
+    display: flex;
+    border-radius: 10px;
+    padding-top: 20px;
+}
+#textoprin{
+    text-align: center;
+}
