@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avaliador</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="Topo">
+        <header>
+            <div class="Logo"><a href="index.html">Sistema brabo</a></div>
+        </header>
+        <nav><a class="Navegador" href="idade.html">Idade</a>
+            <a class="Navegador" href="#">Avaliação</a>
+            <a class="Navegador" href="desconto.html">Desconto</a>
+            <a class="Navegador" href="login.html">Login</a>
+        </nav>
+    </div>
+<main>
+    <div class="Compras">
+        <h2>Insira a nota do aluno</h2>
+        <input id="Nota" placeholder="Nota" type="text">
+        <br>
+        <input id="Presença" placeholder="Frequencia em porcentagem" type="text">
+        <br>
+        <button onclick="avaliar()">Avaliar</button>
+        <p id="avaliado"></p>
+    </div>
+</main>
+<script src="script.js"></script>
+</body>
+</html>

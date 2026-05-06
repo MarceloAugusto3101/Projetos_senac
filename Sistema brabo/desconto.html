@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de valor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="Topo">
+        <header>
+            <div class="Logo"><a href="index.html">Sistema brabo</a></div>
+        </header>
+        <nav><a class="Navegador" href="#">Idade</a>
+            <a class="Navegador" href="avaliação.html">Avaliação</a>
+            <a class="Navegador" href="desconto.html">Desconto</a>
+            <a class="Navegador" href="login.html">Login</a>
+        </nav>
+    </div>
+    <main>
+        <div class="Compras">
+            <h1>Insira o valor e <br> mostrara o quanto de desconto você ira ter</h1>
+            <input id="Valor" class="Valor" type="number" placeholder="Insira o valor"> <br>
+            <input id="Cupom" class="Valor" type="text" placeholder="Cupom"> <br>
+            <input class="Valor" id="Vip" type="text" placeholder="Vip"><br><br>
+            <button onclick="Calcularvalor()">Calcular</button>
+            <p id="Resultadodocupom"></p>
+        </div>
+    </main>
+<script src="script.js"></script>
+</body>
+</html>
