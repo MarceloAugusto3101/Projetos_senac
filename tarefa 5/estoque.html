@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+    <div class="topo">
+    <div>
+      <header><span>For & While//</span></header>
+    </div>
+    <div>
+      <nav>
+        <a href="index.html">INICIO</a>
+        <a href="estoque.html">ESTOQUE</a>
+        <a href="caixa.html">CAIXA</a>
+        <a href="senha.html">SENHA</a>
+        <a href="notas.html">NOTAS</a>
+        <a href="conferencia.html">CONFÊRENCIA</a>
+      </nav>
+    </div>
+  </div>
+  <main>
+    <div class="Banner">
+      <h1>Sistema de <br>
+Estoque</h1> <p>Percorre um array de produtos usando estrutura for</p>
+    </div>
+    <div>
+      <div class="Sobre">
+        <h2>Cadastrar produto</h2>
+        <p>Preencha os campos e clique em Adicionar para incluir um produto no estoque.</p>
+        <div class="Name">
+          <label for="">NOME DO PRODUTO</label>
+          <input id="Produto" type="text">
+        </div>
+        <div class="Baixopag2">
+          <div class="Bottom">
+            <label for="">QUANTIDADE</label>
+            <input id="Quantidade" type="number">
+          </div>
+          <div class="Bottom">
+            <label for="">Preço (R$)</label>
+            <input id="Preço" type="number" placeholder="Ex: 149.90" min="0" step="0.01">
+          </div>
+        </div>
+        <div class="botões">
+          <button onclick="add()" id="add" class="botão1">+ ADICIONAR</button>
+          <button id="del" class="botão2">LIMPAR TUDO</button>
+        </div>
+      </div>
+      <div class="Sistemascriados">
+        <h2>Produtos no estoque</h2>
+        <p>Clique no botão para listar todos os produtos cadastrados.</p>
+        <button onclick="Mostrar()" class="mostrar">Mostrar produtos</button>
+        <div class="">
+          <ul id="Local">
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <p>Atividade Prática — JavaScript For & While || ©Marcelo Augusto</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

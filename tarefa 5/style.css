@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Syne:wght@400;700;800&display=swap');
+
+body{
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: white;
+}
+
+input{
+  color: white;
+}
+
+.topo{
+  display: flex;
+  gap: 30px;
+  padding: 20px;
+  border-bottom: 1px solid white;
+  background-color: rgba(68, 68, 68, 0.582);
+  font-size: small;
+}
+a{
+  text-decoration: none;
+  margin-right: 15px;
+  color: white;
+  display: inline-block;
+  transition: transform 0.2s ease, color 0.2s ease, text-decoration-color 0.2s ease;
+}
+a:hover{
+  text-decoration: overline;
+  color: aliceblue;
+  transform: scale(1.08);
+}
+.Banner{
+    font-family: 'JetBrains Mono', monospace;
+}
+.Banner p{
+  border-left: 3px solid ;
+  padding-left: 10px;
+}
+main{
+    flex: 1;
+  padding: 4rem 2rem;
+  max-width: 860px;
+  width: 100%;
+  margin: 0 auto;
+}
+ul{
+  list-style: none;
+}
+
+.Sobre{
+  border: 1px solid white;
+  margin-top: 60px;
+  background-color: rgba(100, 100, 100, 0.315);
+  box-shadow: rgba(187, 187, 187, 0.56) 0px 22px 70px 4px;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.Sobre p{
+  font-size: larger;
+}
+
+footer {
+  bottom: 0;
+  width: 97,3%;
+  text-align: center;
+  padding: 1.5rem;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.75rem;
+  border-top: 1px solid white;
+}
+.Sistemascriados{
+  border: 1px solid white;
+  margin-top: 60px;
+  background-color: rgba(100, 100, 100, 0.315);
+  box-shadow: rgba(187, 187, 187, 0.56) 0px 22px 70px 4px;
+  padding: 30px;
+  border-radius: 10px;
+}
+.Sistemascriados ul{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+    border-left: 3px solid ;
+  padding-left: 10px;
+  background-color: rgb(61, 61, 61);
+  padding: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.Name{
+  font-family: 'JetBrains Mono', monospace;
+  display: flex;
+  flex-direction: column;
+  color: rgb(121, 121, 121);
+}
+.Name input{
+  padding: 10px;
+  background-color: black;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 10px;
+}
+
+.Baixopag2{
+  font-family: 'JetBrains Mono', monospace;
+  display: flex;
+  gap: 5%;
+  color: rgb(121, 121, 121);
+}
+
+.botões{
+  display: flex;
+  gap: 20px;
+}
+
+.botão1{
+  padding: 10px;
+  background-color: white;
+  border-radius: 10px;
+  border: none;
+  transition: transform 0.2s ease, color 0.2s ease, text-decoration-color 0.2s ease;
+}
+.botão1:hover{
+  cursor: pointer;
+  color: rgb(24, 96, 163);
+  transform: scale(1.08);
+}
+.botão2{
+  padding: 10px;
+  background-color: rgba(167, 25, 25, 0.658);
+  border-radius: 10px;
+  border: none;
+  transition: transform 0.2s ease, color 0.2s ease, text-decoration-color 0.2s ease;
+}
+.botão2:hover{
+    cursor: pointer;
+  color: rgb(255, 255, 255);
+  transform: scale(1.08);
+}
+.botão3{
+  padding: 10px;
+  background-color: rgba(10, 255, 222, 0.658);
+  border-radius: 10px;
+  border: none;
+  transition: transform 0.2s ease, color 0.2s ease, text-decoration-color 0.2s ease;
+}
+
+.botão3:hover{
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+  transform: scale(1.08);
+}
+.botão5{
+  padding: 10px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  border: none;
+  transition: transform 0.2s ease, color 0.2s ease, text-decoration-color 0.2s ease;
+}
+.botão5:hover{
+    cursor: pointer;
+    background-color: black;
+  color: rgb(255, 255, 255);
+  transform: scale(1.08);
+}
+
+.mostrar{
+    padding: 10px;
+  background-color: rgba(30, 71, 185, 0.658);
+  border-radius: 10px;
+  color: white;
+  border: none;
+  transition: transform 0.2s ease, color 0.2s ease, text-decoration-color 0.2s ease;
+}
+.mostrar:hover{
+    cursor: pointer;
+  color: rgb(255, 255, 255);
+  transform: scale(1.08);
+}
+
+.Baixopag2 input{
+    background-color: black;
+  margin-top: 10px;
+  display: flex;
+  padding-right: 200px;
+  padding-bottom: 15px;
+  margin-bottom: 23px;
+  border: none;
+  border-radius: 10px;
+}
+.Bottom{
+  display: flex;
+  flex-direction: column;
+}
