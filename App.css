@@ -1,0 +1,27 @@
+body {
+  font-family: Arial;
+}
+
+header {
+  text-align: center;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 200px;
+  margin: 10px;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.card img {
+  width: 150px;
+}
+
+footer {
+  text-align: center;
+}
